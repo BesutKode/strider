@@ -1,4 +1,4 @@
-FROM node:41
+FROM node:4.1
 MAINTAINER phyxkal <haikalvidya@gmail.com>
 
 RUN mkdir -p /usr/src/webapp
