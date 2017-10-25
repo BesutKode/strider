@@ -4,7 +4,7 @@ MAINTAINER phyxkal <haikalvidya@gmail.com>
 RUN mkdir -p /usr/src/webapp
 
 WORKDIR /usr/src/webapp
-COPY package.json /usr/src/webapp
+COPY package.json yarn.lock ./
 RUN npm install
 
 COPY . /usr/srv/webapp
