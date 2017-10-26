@@ -1,8 +1,8 @@
 web:
-  build: .
-  links:
-    - mongo
-  ports:
-    "8081":"3000"
+ build: .
+ links:
+   - mongo
+ ports: 
+   - "8081:3000"
 mongo:
-  image: mongo
+ image: mongo
